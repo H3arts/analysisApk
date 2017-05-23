@@ -83,7 +83,7 @@ def get_url_from_smali(smali_path):
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print u"[Error] 参数个数错误!"
-        print "usage: python appdetect.py xxx.apk"
+        print "usage: python analysisApk.py xxx.apk"
         exit()
     print os.path.abspath(sys.argv[1])
     print BASE_DIR, TMP_PATH
